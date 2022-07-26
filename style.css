@@ -77,8 +77,52 @@ body {
     padding: 8px 16px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #3382F6;
+    background-color: #3b82f6;
     color: #F9FAF8;
     border-width: 0;
     border-radius: 8px;
+}
+
+.info-background {
+    background-color: white;
+    color: #4b5563;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card .image {
+    border-style: solid;
+    border-color:#3b82f6;
+    border-radius: 12px;
+    border-width: 4px;
+    height: 180px;
+    width: 180px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 48px;
+    padding-bottom: 80px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    width: 180px;
+    text-align: center;
+}
+
+.card .subtext {
+    margin-top: 12px;
 }
