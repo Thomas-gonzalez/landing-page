@@ -115,7 +115,7 @@ body {
 .info-cards {
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 64px;
 }
 
 .card {
@@ -125,4 +125,29 @@ body {
 
 .card .subtext {
     margin-top: 12px;
+}
+
+.quote-background {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote-section {
+    width: 1000px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
 }
