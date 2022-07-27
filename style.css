@@ -151,3 +151,43 @@ body {
     font-size: 24px;
     text-align: right;
 }
+
+.CTA-background {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTA-section {
+    background-color: #3b82f6;
+    color: white;
+    width: 1000px;
+    padding: 48px 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTA-button {
+    background: #3b82f6;
+    font-weight: bold;
+    font-size: 16px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 24px
+}
+
+.CTA-text .main-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.CTA-text .secondary-text {
+    font-size: 16px;
+}
+
